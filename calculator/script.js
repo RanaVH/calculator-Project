@@ -1,13 +1,13 @@
 function buttonclick(val)
 {
-    document.getElementById("input").value=document.getElementById("input").value+val;
+    document.getElementById("screen").value=document.getElementById("screen").value+val;
 
 } 
 function clearDisplay() {
-    document.getElementById("input").value=""
+    document.getElementById("screen").value=""
 } 
 function equalClick(){
-    var text=document.getElementById("input").value
+    var text=document.getElementById("screen").value
     var result=eval(text) 
-    document.getElementById('input').value=result 
+    document.getElementById('screen').value=result 
 }  
